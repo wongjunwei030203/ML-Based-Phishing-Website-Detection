@@ -12,11 +12,11 @@ The dataset contains 2000 rows and 26 columns with the following characteristics
 ## Preprocessing
 
 1. **Handling NA values**: Omitted rows with NA values.
-2. **Removing Low Variance Predictors**: Dropped predictors with more than 99% values in a single category.
+2. **Removing Low Variance Predictors**: Removed predictors with more than 99% values in a single category.
 3. **Encoding Categorical Variables**: Converted predictors with less than 10 unique values to factor columns.
-4. **Data Splitting**: Split data into training (70%) and testing (30%) sets.
+4. **Data Splitting**: Split the data into training and testing sets using a 70:30 ratio
 
-## Models
+## Models implemented
 
 The following models were implemented:
 
