@@ -11,7 +11,7 @@ The dataset contains 2000 rows and 26 columns with the following characteristics
 
 ## Preprocessing
 
-1. **Handling NA values**: Removed rows with NA values, retaining 1556 rows and 26 columns.
+1. **Handling NA values**: Omitted rows with NA values.
 2. **Removing Low Variance Predictors**: Dropped predictors with more than 99% values in a single category.
 3. **Encoding Categorical Variables**: Converted predictors with less than 10 unique values to factor columns.
 4. **Data Splitting**: Split data into training (70%) and testing (30%) sets.
@@ -21,7 +21,7 @@ The dataset contains 2000 rows and 26 columns with the following characteristics
 The following models were implemented:
 
 1. **Decision Tree**
-2. **Naïve Bayes**
+2. **Naive Bayes**
 3. **Bagging**
 4. **Boosting**
 5. **Random Forest**
@@ -30,5 +30,5 @@ The following models were implemented:
 
 ## Results
 
-- **Random Forest**: Highest accuracy and AUC, demonstrating robust performance in distinguishing between legitimate and phishing websites.
+- **Random Forest**: Highest accuracy and AUC, demonstrating robust performance in differentiating between legitimate and phishing websites.
 - **Decision Tree**: Lowest accuracy, primarily due to the assumption of independence between predictors.
